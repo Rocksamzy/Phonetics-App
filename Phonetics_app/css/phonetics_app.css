@@ -1,0 +1,201 @@
+/*Phonetics_App Css file*/
+
+/*!
+*Created by Bukar Schwartz.
+*Contact me on Github-https://github.com/rocksamzy.
+*/
+
+span{
+  color: hotpink;
+}
+
+a{
+  text-decoration: none;
+  color: #a5a5a5;
+}
+a:hover{
+  text-decoration: ;
+  text-decoration-color: whitesmoke;
+  color: whitesmoke;
+  background: rgb(0, 119, 119);
+  flex-basis: 0;
+  flex-grow: 1;
+  font-weight: 600;
+  transition: background 0.5s linear;
+  transition: color 0.5s linear;
+}
+
+body{
+  background-color: #eaeaea;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+
+div .modal-header{
+    background-color: teal;
+}
+.container{
+    max-width: 100%;
+    float: left;
+    
+  }
+  
+  .container ul li{
+    list-style: none;
+    float: left;
+    display: inline-block;
+  
+  }
+  
+  .container ul li a{
+    display: block;
+    text-decoration: none;
+    padding: 20px;
+    color: whitesmoke;
+    font-size: 14px;
+    font-weight: 900;
+    font-family: helvetica;
+  }
+  
+  .container ul li a:hover{
+    background-color: rgb(0, 119, 119);
+    color: #a5a5a5;
+    transition: background 0.5s linear;
+    transition: color 0.5s linear;
+  }
+  
+  /*dropdown menu css*/
+  .container ul li ul.dropdown{
+    max-width:auto;
+    padding: 10px;
+    background-color: whitesmoke;
+    position: absolute;
+    display: none;
+  }
+  
+  .container ul li:hover ul.dropdown{
+     display: block;
+  }
+  
+  .container ul li:hover ul.dropdown li{
+    width: 180px;
+    margin-right: 40px;
+    float: left;
+  }
+  
+  .container ul li:hover ul.dropdown li a{
+    padding: 10px;
+    color: #078bcb;
+  }
+  
+  .container ul li:hover ul.dropdown li a:hover{
+    background-color: rgb(0, 119, 119);
+    color: #a5a5a5;
+    flex-basis: 0;
+	  flex-grow: 1;
+    text-align: center;
+    transition: background 0.5s linear;
+    transition: color 0.5s linear;
+  }
+  
+  /*Right nav Bar*/
+
+  .container .right-navbar{
+    position: relative;
+    width: auto;
+    float: right;
+    display: inline-block;
+  }
+
+
+  /*Form */
+
+  form{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-50%,-30%);
+    text-align:center;
+    padding: 35px;
+    max-width: 100%;
+    max-height: 100%;
+    box-sizing: border-box;
+    border-radius: 7%;
+    border: 1px solid #616161;
+    box-shadow: 3px 3px grey;
+    background-color: rgba(024, 090, 010, 0.2);
+}
+
+h5{
+    position: absolute;
+    top:50%;
+    left:50%;
+    transform:translate(-48%,0%);
+    margin-top:190px;
+    color:#3a3939;
+    text-align: center;
+    
+}
+
+.header{
+  position: relative !important;
+  transform: translate(-0%, 50%) !important;
+  text-align: center !important;
+}
+
+label{
+    font-weight:bolder;
+    font-size:18px;
+    color: #a5a5a5;
+}
+input[type=text]{
+    width:80%; 
+    height:30px;
+    border-radius:5px; 
+    margin-top:5px; 
+    margin-bottom:10px;
+    border-top: none;
+    border-right: none;
+    border-bottom: 4px inset #eaeaea;
+    border-left: 2px outset #eaeaea;
+    outline: none;
+    background-color:transparent; 
+    color: #797979;
+}
+input[type=text]:focus{
+    background-color:#4a4a4a;
+    color: #a5a5a5;
+    text-align: center;
+}
+input[type=submit]{
+    width:50%; 
+    height:30px;
+    transform:translate(50%,50%);
+    border-radius:5px;
+    border:0;
+    background-color:teal;
+    font-size:14px;
+}
+
+::-webkit-input-placeholder{
+  opacity: 0.3;
+  text-align: center;
+}
+
+footer{
+    position:absolute;
+    bottom: 0px;
+    left:50%;
+    transform:translateX(-50%);
+    width:100% !important; 
+    color: whitesmoke;
+    border: 1px solid transparent;
+    background-color: teal;
+    text-align: center;
+}
+  
+  
