@@ -3,12 +3,17 @@
 
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    <meta content="A phonetics web app for checking homonyms and words that sound alike." name="description" />
+    <meta property="og:type" content="application" />
+    <meta property="og:title" content="Phonetics app" />
+    <meta property="og:description" content="Phonetics application script" />
+    <meta property="og:author" content="rocksamzy" />
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Phonetic || App</title>
-    <link rel="stylesheet" href="bootstrap.css">
-    <link rel="stylesheet" href="fontawesome-free-5.13.0-web/css/all.css">
-    <link rel="stylesheet" href="phonetics_app.css">
+    <link rel="stylesheet" href="css/bootstrap.css">
+    <link rel="stylesheet" href="css/all.css">
+    <link rel="stylesheet" href="css/phonetics_app.css">
 </head>
 
 <body>
